@@ -1,0 +1,4 @@
+interface:
+  display_name: "Filing Lens"
+  short_description: "Research SEC filings with citations and exact math"
+  default_prompt: "Use $filing-lens to research a company's annual SEC filing, cite supporting passages, and compare reported financial results."
