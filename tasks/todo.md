@@ -9,4 +9,5 @@
 - [x] Review source, audit runtime dependencies and build package artifacts.
 - [x] Write beginner documentation, learning plan, security/data policies and release draft.
 - [ ] Run real local-model inference after Ollama/model installation by the user.
-- [ ] Obtain final approval and chosen GitHub account/repository, then publish.
+- [x] User authorized skill/repository upload; published `andrewgarofalo05-jpg/filing-lens`.
+- [x] Skill validator, JSON helper tests and all four GitHub CI jobs passed.

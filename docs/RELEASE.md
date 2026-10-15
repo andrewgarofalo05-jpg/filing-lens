@@ -29,9 +29,9 @@ See `docs/VERIFICATION.md` for exactly what was tested and what remains unverifi
 ## Publication checklist
 
 - [ ] User reviews app, screenshots, MIT license and public repository name/owner.
-- [ ] Confirm chosen GitHub account/repository and explicit publication approval.
-- [ ] Review staged content for personal data, secrets, full filings and caches.
-- [ ] Re-run checks in the README and inspect CI after the first push.
+- [x] Confirm chosen GitHub account/repository and explicit publication approval.
+- [x] Review staged content for personal data, secrets, full filings and caches.
+- [x] Re-run checks in the README and inspect CI after the first push.
 - [ ] Enable private vulnerability reporting if available for the repository.
 - [ ] Create tag `v0.1.0` only at the reviewed commit; match pyproject version and changelog.
 - [ ] Attach the source ZIP or use GitHub's source archive; exclude local environments/cache.

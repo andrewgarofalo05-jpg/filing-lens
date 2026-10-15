@@ -15,6 +15,8 @@
 | Live SEC | Apple FY2024 submissions, HTML parsing, Risk Factors retrieval and annual financial facts checked |
 | Source review | Separate read-only review of transport, financial logic, AI boundaries and UI state; no must-fix findings |
 | AI skill | Skill validator passed; JSON helper tested for cited evidence, exact arithmetic, missing contact and abstention |
+| Published GitHub CI | All four Windows/Linux and Python 3.11/3.12 jobs passed on the initial skill upload |
+| Skill installation command | Frozen uv setup and offline helper succeeded from outside the repository |
 
 Live test source: accession `0000320193-24-000123`, filed 2024-11-01. The parser detected
 23 item sections in the actual downloaded HTML. The outsourcing query's top result was Item 1A.
@@ -32,8 +34,8 @@ cached response metadata or screenshots. Full live downloads are excluded from t
 - Ollama was not available at localhost:11434. Real local-model inference and output quality
   were **not** tested. The adapter, rejection cases and prompt/tool boundary were tested with
   controlled responses. Do not describe this as a measured AI accuracy result.
-- GitHub Actions has been prepared but has not run on GitHub. Linux/Python 3.12 matrix results
-  are not claimed from a local Windows/Python 3.11 check.
+- GitHub CI results are available in [the verified workflow run](https://github.com/andrewgarofalo05-jpg/filing-lens/actions/runs/38802312958).
+  These cover automated offline tests, evaluation, lint and packaging, not live SEC/model inference.
 - One live company/filing smoke check is not broad SEC compatibility coverage.
 - No load test, hosted multi-user security assessment, formal accessibility audit or independent
   accounting assurance was performed.
